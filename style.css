@@ -541,7 +541,7 @@ h2
 
 {
   font-weight: 200;
-  font-size: 50px;
+  font-size: 40px;
   font-style: italic;
   padding-right: 100px;
   color: rgb(255, 221, 0);
@@ -1377,7 +1377,7 @@ h2
   font-weight: 200;
   font-size: 50px;
   font-style: italic;
-  padding-right: 200px;
+  padding-right: px;
   color: rgb(255, 221, 0);
 
 }
