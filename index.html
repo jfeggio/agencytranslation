@@ -17,22 +17,15 @@
   </head>
   <body>
     <header>
-      <div class="container7">
-        <div class="menu">
-          <p class="about" href="#first-section">About Us</p>
-          <p class="about" href="#our-rates">Our rates</p>
-          <p class="about" href="#our-languages">Languages</p>
-          <p class="about" href="#contact-us">Contact Us</p>
-          </div>
-          </div>
       <a href="" class="logo">Guacamaya</a>
       <p class="logo-text">translation agency</p>
       <div class="container2">
       <nav>
        <ul>
-          <li> <a href="#first-section">About Us</a></li>
+          <li> <a href="#about-us">About Us</a></li>
           <li> <a href="#our-rates">Our Rates</a></li>
-          <li> <a href="#our-languages">Language Pair</a></li>
+          <li> <a href="#our-languages">Our Languages</a></li>
+          <li> <a href="#login">Login</a></li>
           <li> <a href="#contact-us">Contact Us!</a></li>
         </ul>
       </nav>
@@ -43,7 +36,6 @@
 
     <section class="home-frase">
       <div class="container">
-        <span class="fas fa-globe-americas"></span>
 
         <h1>GREAT PRICES<br>FOR QUALITY<br>TRANSLATIONS</h1>
         <h2>Your new best friend after you realize<br> <i>google translate</i> is simply not worth it.</h2>
@@ -51,7 +43,7 @@
     </section>
     <section class="first-section">
       <div class="container4">
-        <p class="about-us"><span class="fas fa-quote-left"></span>about us</p>
+        <p class="about-us" id="about-us"><span class="fas fa-quote-left"></span>about us</p>
         <p class="about-us-sub"> We strive to give you the best</p>
         <img src="undraw_co-working_825n.svg" class="image-1">
         <p class="about-us-text">
@@ -63,7 +55,7 @@
    </section>
    <section class="second-section">
      <div class="container4"><br><br>
-       <p class="our-rates"><span class="fas fa-piggy-bank"></span>our rates</p>
+       <p class="our-rates" id="our-rates"><span class="fas fa-piggy-bank"></span>our rates</p>
        <p class="our-rates-sub">Make the most out of your money!</p>
        <img src="undraw_finance_0bdk.svg" class="image-1">
        <p class="our-rates-text">
@@ -76,12 +68,11 @@ receive the most adequate translation, no matter the subject.
 
 
   <div class="gradient"><p class="price">one word for as low as</p><span class="fas fa-dollar-sign"></span><p class="cost">0,007</p>
-  <br><a class="btn quote-button" href="#" role="button">GET A QUOTE NOW!</a></div>
 
   </section>
   <section class="third-section">
     <div class="container4">
-      <p class="our-language"><span class="fas fa-language"></span>our languages</p><p class="our-language-sub">Spanish / English </p>
+      <p class="our-language" id="our-languages"><span class="fas fa-language"></span>our languages</p><p class="our-language-sub">Spanish / English </p>
       <img src="undraw_world_9iqb.svg" class="image-1">
       <p class="our-language-text">Since we specialized from English to Spanish translation, we do not offer other language pair.
 <br><br>We can provide Spanish to English translation, if requested.
@@ -90,13 +81,43 @@ receive the most adequate translation, no matter the subject.
  </section>
  <section class="fourth-section">
    <div class="container4">
-     <p class="contact-us"><span class="fas fa-envelope"></span>contact us!</p><p class="contact-us-sub">for quotes and info</p>
 
-<!--Form-->
 
+     <!--header form-->
+
+     <!--FORM LOGIN HEADER-->
+     <br><br><br><p class="contact-us" id="login">
+       <span class="fas fa-envelope"></span>Login!</p>
+       <p class="contact-us-sub">for live updates on your translation</p>
+
+      <!--container form-->
      <div class="container5">
-     <form class="gform"
-     action="https://script.google.com/macros/s/AKfycbwp-R7D1cwfanWAOYpPP8nMRk7TIrapibUf1ig1DKC3Z6uf43Q/exec" method="post" role="form" data-toggle="validator">
+
+<!--Forms-->
+
+       <!--FORM LOGIN-->
+
+       <form action="login" method="post">
+         <div class="form-group">
+           <label for="usuario">Usuario</label>
+           <input type="text" class="form-control" name="usuario" placeholder="Usuario">
+         </div>
+         <div class="form-group">
+           <label for="password">Password</label>
+           <input type="password" class="form-control" name="password" placeholder="Password">
+         </div>
+         <button type="submit" class="btn btn-primary button-form" value="Registrarme">Sign Up</button>
+            <button type="submit" class="btn btn-secundary" value="Login">Login</button>
+          </form>
+        </div>
+          <!--FIN LOGIN-->
+
+<br><br><br>
+<p class="contact-us" id="contact-us"><span class="fas fa-envelope"></span>contact us!</p><p class="contact-us-sub">for quotes and info</p>
+       <!--Forms contact us-->
+     <div class="container5">
+       <form class="gform"
+     action="https://script.google.com/macros/s/AKfycbxUX_AXfO7c3GSw1K4dTo8SiSBoqFewLpQ7bJFHpDZMOmk41Iue/exec" method="post" role="form" data-toggle="validator">
      <!--honeypot-->
      <label class="sr-only"></label>
        <input id="honeypot" type="text" name="honeypot" value="" />
@@ -129,8 +150,9 @@ receive the most adequate translation, no matter the subject.
   </div>
 <br>
   <div class="custom-file">
-    <input type="file" name="file" action="file" class="custom-file-input" id="customFile">
+    <input type="file" name="file" action="file" class="custom-file-input" id="customFile" accept=".pdf, .doc, .docx">
     <label class="custom-file-label" for="customFile">Choose file</label>
+    <small>only .pdf, .doc, .docx</small>
   </div>
 <br><br>
 
@@ -165,6 +187,7 @@ receive the most adequate translation, no matter the subject.
   </div>
 </div>
 </form>
+
 </div>
   <img src="linea4.png" class="linea-blue">
  </section>
