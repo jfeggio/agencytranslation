@@ -147,7 +147,8 @@ receive the most adequate translation, no matter the subject.
   </div>
 <br>
   <div class="custom-file">
-    <input type="file" name="file" action="file" class="custom-file-input" id="customFile" accept=".pdf, .doc, .docx">
+    <form method="post" action="attachments.php">
+      <input type="file" name="file" action="file" class="custom-file-input" id="customFile" accept=".pdf, .doc, .docx">
     <label class="custom-file-label" for="customFile">Choose file</label>
     <small>only .pdf, .doc, .docx</small>
   </div>
