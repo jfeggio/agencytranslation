@@ -67,8 +67,47 @@ receive the most adequate translation, no matter the subject.
      <img src="linea2.png" class="linea-green">
 
 
-  <div class="gradient"><p class="price">one word for as low as</p><span class="fas fa-dollar-sign"></span><p class="cost">0,007</p>
+ <div class="gradient"><p class="price">one word for as low as</p>
+    <span class="fas fa-dollar-sign"></span><p class="cost">0,007</p>
+  <br>
+  </section>
 
+<!--Simulazione prezzo-->
+
+    <section class="simulazione-prezzo">
+      <p class="simulazione-prezzo-titolo">Price<br> simulator</p>
+      <br><br>
+<form name="simulazione">
+      Words: <input type="text" class="form-control formBlock"
+      name="words_number" id="words_numberid"
+      placeholder="Number of Words (No letters)" required/>
+      <br />
+
+         <label for="exampleFormControlSelect1">Document type</label>
+        <select class="form-control" id="doctype" required>
+          <option value="general_text">General</option>
+          <option value="specialized_text">Specialized</option>
+        </select>
+<!--Radiobuttons
+      <br /><br />
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input id="fewwords" class="form-check-input" type="radio" name="optradio" value="less1000words">
+          Less than 1000 words</label>
+      </div>
+
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input id="manywords" class="form-check-input" type="radio" name="optradio" value="more1000words">
+          More than 1000 words</label>
+      </div>
+      <br />-->
+      <br>
+      <input type="button" class="btn btn-danger button-form" value="Calculate" onclick="calc();"><br>
+Total: <input disabled="disabled" type="text" class="form-control formBlock"
+name="total" id="provatotale" placeholder="Total Cost"></input></form>
+<!--QUOTE BUTTON
+<br><a class="btn quote-button" href="#" role="button">GET A QUOTE NOW!</a></div>-->
   </section>
   <section class="third-section">
     <div class="container4">
