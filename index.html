@@ -12,14 +12,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
        <!-- My own CSS -->
     <link href="style.css" rel="stylesheet" type="text/css">
-      <!--Javascript simulazione-->
-    <script language="javascript" src="simulazione-prezzo.js"></script>
-     <!--Javascript Form-->
-    <script data-cfasync="false" language="javascript" src="form-submission-handler.js"></script>
+     <!-- FORMULARIO -->
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     <!--Jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <title>TP Guacamaya</title>
+    <title>Prova Agenzia</title>
 
   </head>
   <body>
@@ -158,10 +155,14 @@ name="total" id="provatotale" placeholder="Total Cost"></input></form>
 
 <br><br><br>
 <p class="contact-us" id="contact-us"><span class="fas fa-envelope"></span>contact us!</p><p class="contact-us-sub">for quotes and info</p>
-       <!--Forms contact us-->
+
+<!--Form-->
+
      <div class="container5">
-       <form class="gform" action="https://script.google.com/macros/s/AKfycbxUX_AXfO7c3GSw1K4dTo8SiSBoqFewLpQ7bJFHpDZMOmk41Iue/exec" method="post" role="form" data-toggle="validator">
- 
+     <form class="gform"
+     action="https://script.google.com/macros/s/AKfycbwp-R7D1cwfanWAOYpPP8nMRk7TIrapibUf1ig1DKC3Z6uf43Q/exec"
+     method="post" role="form" data-toggle="validator" data-email="alfajoresboeing@gmail.com" >
+
 
      <div class="form-elements">
        <div class="form-row">
@@ -191,9 +192,8 @@ name="total" id="provatotale" placeholder="Total Cost"></input></form>
   </div>
 <br>
   <div class="custom-file">
-      <input type="file" name="file" action="file" class="custom-file-input" id="customFile" accept=".pdf, .doc, .docx">
+    <input type="file" name="file" action="file" class="custom-file-input">
     <label class="custom-file-label" for="customFile">Choose file</label>
-    <small>only .pdf, .doc, .docx</small>
   </div>
 <br><br>
 
@@ -228,7 +228,6 @@ name="total" id="provatotale" placeholder="Total Cost"></input></form>
   </div>
 </div>
 </form>
-
 </div>
   <img src="linea4.png" class="linea-blue">
  </section>
