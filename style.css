@@ -435,7 +435,7 @@ h2
   position: relative;
   display: inline-flex;
   justify-content: center;
-  width: 50%;
+  width: 100%;
   align-items: left;
   font-size: 3em;
   font-weight: 200;
