@@ -6,6 +6,8 @@
   margin: 0;
 }
 
+html { font-size: 1rem; }
+
 body
 {
   margin: 0;
@@ -31,23 +33,638 @@ header
 
 .container
 {
-  padding-top: 12%;
+  padding-top: 5%;
   right: 0;
-  max-width: 100%;
+  max-width: 90%;
 }
 
-/*Logo Guacamaya container title subtitle homepage*/
-@media (max-width: 640px){
 
-  .container
+.container2
+{
+
+  margin-top: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.logo
+{
+ float: left;
+ font-family: 'Raleway';
+ text-decoration: none;
+ font-weight: 900;
+ font-size: 2em;
+ text-transform: uppercase;
+ color: white;
+ padding: 2%;
+ background-color: #0066FF;
+ box-shadow: 0px 1px 4px #0066FF;
+ margin-left: 10%;
+ margin-top: 3%;
+ text-decoration: none;
+ display: inline-block;
+}
+
+.logo a:hover
+{
+ text-decoration: none;
+ color: white;
+}
+
+.container7
+{
+display: none;
+}
+
+.about
+
+{
+display: none;
+}
+
+.menu
+
+{
+display: none;
+}
+
+
+.logo-text {
+  float: left;
+  font-family: 'Raleway', cursive;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 100%;
+  margin-left: 1%;
+  width: 10%;
+  margin-top: 5.5%;
+  visibility: visible;
+  }
+
+
+
+
+
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 5%;
+  text-align: right;
+  visibility: visible;
+
+}
+
+
+  nav li
   {
-    padding-top: 0.5%;
-    right: 0;
-    top: 0
-    max-width: 100%;
-  }
+    display: inline-block;
+    margin-left: 2%;
+    padding-left: 0.35%;
+    padding-right: 0.9%;
+    background-color: #FFFFFF;
+    position: relative;
+    visibility: visible;
 
   }
+
+  nav a
+  {
+    display: block;
+    position: relative;
+    color: #311D1D;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-family:  'Raleway', bold;
+    font-weight: bolder;
+    line-height: 5%;
+    height: 15px;
+    visibility: visible;
+  }
+
+.menu
+  {
+
+     visibility: hidden;
+  }
+.about
+{
+
+   visibility: hidden;
+}
+
+
+nav li a:hover{
+
+  transition: .5s ease;
+  height: 20px;
+  background-color: white;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-frase
+{
+   background: url('lego5.png') no-repeat fixed;
+   width: 100%;
+   height: 100vh;
+   padding-right: 20%;
+   margin: 0;
+   top: 0;
+   bottom: 0;
+   background-position: center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   color: #FFFFFF;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+   font-family:  'Raleway', bold;
+   letter-spacing: 1%;
+
+}
+
+
+.fa-globe-americas{
+
+  visibility: hidden;
+
+}
+
+
+h1{
+
+  position: relative;
+  height: auto;
+  left: 5%;
+  font-weight: 900;
+  font-size: 5.5em;
+  margin-top: 9%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+
+
+h2
+{
+  position: relative;
+  text-align: left;
+  display: block;
+  padding-top: 6%;
+  left: 5%;;
+  width: 90%;
+  font-weight: 500;
+  font-size: 2.4em;
+  text-shadow: 0px 1px 5px rgba(255, 195, 0);
+}
+
+
+.linea-yellow
+{
+  float: right;
+  position: relative;
+  margin-top: -10%;
+  display: flex;
+
+
+}
+
+.image-1
+{
+  width: 40%;
+  height: 30%;
+  padding-top: 5%;
+}
+
+.image-2
+{
+  width: 40%;
+  height: 30%;
+  padding-top: 5%;
+}
+
+.container4
+{
+
+  padding: 10%;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.fa-quote-left
+{
+  margin-right: 20px;
+  margin-top: 10%;
+  color: rgb(255, 221, 0, 0.4);
+
+}
+.about-us
+
+{
+  font-weight: 900;
+  font-size: 4em;
+  text-align: left;
+  padding-right: 4%;
+  display: inline-block;
+  color: rgb(255, 221, 0);
+
+}
+
+
+
+
+.about-us-sub
+
+{
+  font-weight: 200;
+  font-size: 3em;
+  font-style: italic;
+  padding-right: 4%;
+  color: rgb(255, 221, 0);
+  display: inline-block;
+
+}
+
+.container-sub
+
+{
+  display: none;
+  visibility: hidden;
+}
+
+
+.about-us-text
+
+{
+  width: 55%;
+  text-align: justify;
+  height: 10%;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  padding-top: 10%;
+  font-size: 1.3em;
+  float: right;
+  padding-right: 15%;
+  padding-left: 5%;
+  padding-bottom: 10%;
+  color: #311D1D;
+  display: inline-block;
+
+
+}
+
+
+.our-rates
+
+{
+  font-weight: 900;
+  font-size: 4em;
+  text-align: left;
+  padding-right: 4%;
+  display: inline-block;
+  color: #7ffab9;
+
+}
+
+.our-rates-sub
+
+{
+  font-weight: 200;
+  font-size: 3em;
+  font-style: italic;
+  padding-right: 4%;
+  display: inline-block;
+  color: #7ffab9;
+  display: inline-block;
+}
+
+.fa-piggy-bank
+{
+  padding-right: 10px;
+  font-size: 80%;
+  color: rgb(127,250,185, 0.4);
+
+}
+
+.our-rates-text
+
+{
+  width: 55%;
+  text-align: justify;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  float: left;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-bottom: 15%;
+  color: #311D1D;
+  padding-top: 8%;
+  height: 100%;
+  display: flex;
+
+}
+
+
+.linea-green
+{
+  float: right;
+  position: relative;
+  margin-bottom: 5%;
+  display: flex;
+
+
+}
+
+/*Button TOP scrol*/
+
+#myBtnTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtnTop:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*Titulo Calculadora*/
+
+.simulazione-prezzo-titolo
+
+{
+  font-weight: 900;
+  font-size: 1.2em;
+  text-align: right;
+  padding-right: 7%;
+  padding-left: 35%;
+  display: flex;
+  text-transform: uppercase;
+  color: #9b6092;
+  line-height: 80%;
+  padding-top: 1%;
+
+}
+/*Calculadora*/
+
+.simulazione-prezzo
+{
+  float: center;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: left;
+  font-size: 3em;
+  font-weight: 200;
+  background-image: linear-gradient(#c9cffd, #f9c8fd);
+  text-shadow: 1px 0px 1px #9b6092;
+  color: #9b6092;
+  line-height: 150%;
+  padding-bottom: 15%;
+  padding-right: 25%;
+}
+
+
+.our-language
+
+{
+
+  font-weight: 900;
+  font-size: 4em;
+  text-align: left;
+  display: inline;
+  color: #7ffad8;
+  padding-right: 5%;
+
+}
+
+.our-language-sub
+
+{
+
+  font-weight: 200;
+  font-size: 3em;
+  font-style: italic;
+  text-align: right;
+  color: #7ffad8;
+  display: inline-flex;
+
+}
+
+.fa-language
+{
+padding-right: 3%;
+margin-top: 3%;
+color: rgb(127,250,216, 0.4);
+
+}
+
+.simulazione input, textarea{
+    background-color:#666;
+    color: #FFF;
+}
+
+
+.our-language-text
+
+{
+
+  width: 55%;
+  text-align: justify;
+  font-family: 'Raleway' sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  float: left;
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-bottom: 15%;
+  color: #311D1D;
+  padding-top: 8%;
+  height: 100%;
+  display: flex;
+
+
+}
+.gradient {
+
+  width: 100%;
+  left: 25%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  display: flex;
+  background-image: linear-gradient(#7ffad8, #c9cffd);
+}
+
+.price
+{
+ font-size: 3em;
+ width: 100%;
+ color: white;
+ font-weight: 400;
+ text-shadow: 1px 0px 1px white;
+ display: relative;
+ letter-spacing: 0em;
+ text-align: center;
+}
+
+/*$ e prezzo cancellati dall'HTML
+.fa-dollar-sign
+{
+  font-size: 4em;
+ color: white;
+ display:flex;
+ padding-top: 2%;
+text-shadow: 1px 0px 1px white;
+}
+
+.cost
+{
+ font-size: 5em;
+ color: white;
+ font-weight: 700;
+ text-shadow: 1px 0px 1px white;
+ margin-right: 20%;
+ display: flex;
+}
+
+QUOTE BUTTON
+
+.quote-button
+{
+ width: auto;
+ height: 100px;
+ padding: 25px;
+ margin-left: 10%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 10%;
+ letter-spacing: -2px;
+ margin-bottom: 5%;
+ font-weight: 600;
+ font-size: 28px;
+ border: 2px solid black;
+ background-color: white;
+ color: #311D1D;
+ box-shadow: 5px 5px 5px black;
+}
+
+
+.quote-button:hover
+{
+
+  color: #333333;
+  font-weight: 600;
+  border: 2px solid #333333;
+  box-shadow: 5px 5px 5px grey;
+}
+*/
+.contact-us
+
+{
+  font-weight: 900;
+  font-size: 70px;
+  text-align: left;
+  padding-right: 30px;
+  display: inline-block;
+  color: #0066FF;
+
+}
+
+.contact-us-sub
+
+{
+  font-weight: 200;
+  font-size: 50px;
+  font-style: italic;
+  color: #0066FF;
+  display: inline-block;
+
+}
+
+.fa-envelope
+{
+padding-right: 20px;
+color: rgb(0,102,255, 0.4);
+
+}
+
+.container5
+
+{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 0;
+  margin-top: 3%;
+
+}
+
+
+
+.linea-blue
+{
+  float: right;
+  position: relative;
+  display: flex;
+
+
+}
+
+.thankyou_message
+{
+float: center;
+text-align: center;
+font-size: 30px;
+}
+
+
+.fa-comments
+{
+color: rgb(0,102,255, 1);
+margin-top: 15%;
+margin-left: 15%;
+font-size: 80px;
+}
+
+.container6
+{
+padding-top: 5%;
+margin-left: 10%;
+}
+
+.button-form
+
+{
+  float: right;
+  font-size: 20px;
+
+}
+
 
 .container2
 {
