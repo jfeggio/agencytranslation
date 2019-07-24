@@ -1,0 +1,428 @@
+/*Logo Guacamaya container title subtitle homepage*/
+/* CSS Document */
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html { font-size: 1.25rem; }
+
+body
+{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+span
+ {
+   font-family: 'FontAwesome';
+   padding-right: 0.1em;
+  }
+
+
+/* header
+================== */
+
+header
+{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.container
+{
+  padding-top: 10px;
+  right: 0;
+  max-width: 100%;
+}
+
+
+
+  .container
+  {
+    right: 0;
+    top: 0
+    padding: 5%;
+  }
+
+
+  /*Small Screen Logo Guacamaya*/
+
+
+      .logo{
+      visibility: hidden;
+      }
+
+      .container7
+      {
+
+      padding: 5%;
+      display: inline-block;
+      background-color: white;
+      overflow: auto;
+      white-space: nowrap;
+      width: 100%;
+
+      }
+
+      .menu
+      {
+
+        display: inline-block;
+        padding-top: 5%;
+        width: 100%;
+        font-size: 0.9em;
+        color: #311D1D;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .about
+      {
+      text-align: center;
+      display: inline-block;
+      padding-right: 5%;
+      }
+
+      .about:hover
+      {
+      font-style:oblique;
+      }
+
+
+
+    /*Small Screen translation agency testo logo*/
+
+
+      .logo-text{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        position: relative;
+        margin-top: -5%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        text-align: center;
+        }
+
+
+
+
+      /*elementi nascosti nav*/
+      @media (max-width: 640px){
+
+        nav li{
+
+           visibility: hidden;
+        }
+        nav a{
+
+           visibility: hidden;
+        }
+
+        .navbar
+        {
+          visibility:visible;
+        }
+
+        .about
+        {
+
+        visibility: visible;
+
+        }
+
+      }
+      /*Small screen immagine homepage*/
+      @media (max-width: 640px){
+        .home-frase{
+          background-color: #fde837;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-attachment:fixed;
+          padding: 5%;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+          font-family:  'Raleway', bold;
+          letter-spacing: 1%;
+        }
+
+
+
+        h1{
+          position: relative;
+          font-size: 2em;
+          margin-top: 60%;
+          margin-bottom: 15%;
+          font-weight: 900;
+        }
+
+        h2{
+          text-align: left;
+          position: relative;
+          font-size: 1.5em;
+          margin-bottom: 20%;
+        }
+
+        .linea-yellow .linea-blue
+        {
+          display: none;
+        }
+
+
+      /*Small Screen prima sezione titolo */
+
+
+
+      .container4
+      {
+
+        padding: 10%;
+        margin: 0;
+        top: 0;
+        bottom: 0;
+      }
+
+      .fa-quote-left
+      {
+        margin-right: 20px;
+        margin-top: 10%;
+        color: rgb(255, 221, 0, 0.4);
+
+      }
+      .about-us
+
+      {
+        font-weight: 900;
+        font-size: 2em;
+        text-align: left;
+        display: inline-block;
+        color: rgb(255, 221, 0);
+
+      }
+
+
+        /*Small Screen prima sezione subtext*/
+
+        .about-us-sub
+
+        {
+          font-weight: 200;
+          font-size: 1.5em;
+          font-style: italic;
+          color: rgb(255, 221, 0);
+          display: inline-block;
+          margin-bottom: 20%;
+
+        }
+
+
+        img
+
+        {
+          display: none;
+        }
+
+        /*Small Screen text prima sezione*/
+
+        .about-us-text
+        {
+          text-align: justify;
+          font-family: 'Raleway' sans-serif;
+          font-weight: 300;
+          font-size: 0.95em;
+          color: #311D1D;
+          display: inline-flex;
+          position: relative;
+
+        }
+
+
+        .container4
+        {
+
+          width: auto;
+          height: auto;
+
+        }
+
+        .fa-piggy-bank
+        {
+          margin-right: 20px;
+          margin-top: 10%;
+          color: rgb(127,250,185, 0.4);
+
+        }
+
+        .our-rates
+
+        {
+          font-weight: 900;
+          font-size: 2em;
+          text-align: left;
+          display: inline-block;
+          color: #7ffab9;
+
+        }
+
+        .our-rates-sub
+
+        {
+          font-weight: 200;
+          font-size: 1.5em;
+          font-style: italic;
+          display: inline-block;
+          margin-bottom: 20%;
+          color: #7ffab9;
+
+        }
+
+        .our-rates-text
+        {
+          text-align: justify;
+          font-family: 'Raleway' sans-serif;
+          font-weight: 300;
+          font-size: 0.95em;
+          color: #311D1D;
+          display: inline-flex;
+          position: relative;
+        }
+
+        .gradient {
+
+          width: 100%;
+          left: 25%;
+          padding-bottom: 10%;
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-top: 10%;
+          display: flex;
+          background-image: linear-gradient(#7ffad8, #c9cffd);
+        }
+
+        .price
+        {
+         font-size: 1.5em;
+         width: 100%;
+         color: white;
+         font-weight: 400;
+         text-shadow: 1px 0px 1px white;
+         display: relative;
+         letter-spacing: 0em;
+         text-align: center;
+        }
+
+
+        .simulazione-prezzo-titolo
+
+        {
+          font-weight: 900;
+          font-size: 1.3em;
+          display: inline-block;
+          text-transform: uppercase;
+          color: #9b6092;
+          width: 100%;
+
+
+        }
+        /*Calculadora*/
+
+        .simulazione-prezzo
+        {
+
+          display: inline-block;
+          padding-left: 10%;
+          padding-bottom: 15%;
+          padding-right: 10%;
+          justify-content: center;
+          width: 100%;
+          font-size: 2em;
+          font-weight: 200;
+          background-image: linear-gradient(#c9cffd, #f9c8fd);
+          text-shadow: 1px 0px 1px #9b6092;
+          color: #9b6092;
+        }
+
+        .btn-danger
+
+        {
+
+          margin-bottom: 10%;
+        }
+
+        .our-language
+
+        {
+          font-weight: 900;
+          font-size: 2em;
+          text-align: left;
+          display: inline-block;
+          color: #7ffad8;
+
+        }
+
+        .our-language-sub
+
+        {
+          font-weight: 200;
+          font-size: 1.5em;
+          font-style: italic;
+          display: inline-block;
+          margin-bottom: 20%;
+          color: #7ffad8;
+
+        }
+
+        .our-language-text
+        {
+          text-align: justify;
+          font-family: 'Raleway' sans-serif;
+          font-weight: 300;
+          font-size: 0.95em;
+          color: #311D1D;
+          display: inline-flex;
+          position: relative;
+        }
+
+        .fa-language
+{
+        padding-right: 3%;
+        padding-top: 15%;
+        color: rgb(127,250,216, 0.4);
+}
+
+.contact-us
+
+{
+  font-weight: 900;
+  font-size: 2em;
+  text-align: left;
+  display: inline-block;
+  color: #0066FF;
+
+}
+
+.contact-us-sub
+
+{
+  font-weight: 200;
+  font-size: 1.5em;
+  font-style: italic;
+  display: inline-block;
+  margin-bottom: 20%;
+  color: #0066FF;
+}
+.fa-envelope
+{
+  padding-right: 20px;
+  color: rgb(0,102,255, 0.4);
+}
+
+#myBtnTop {
+  display: none;
+  visibility: hidden;
+}
