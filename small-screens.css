@@ -322,7 +322,7 @@ header
         {
           font-weight: 900;
           font-size: 1.3em;
-          display: flex;
+          display: block;
           text-transform: uppercase;
           color: #9b6092;
           width: 100%;
@@ -334,7 +334,7 @@ header
         .simulazione-prezzo
         {
 
-          display: flex;
+          display: block;
           padding-left: 10%;
           padding-bottom: 15%;
           padding-right: 10%;
