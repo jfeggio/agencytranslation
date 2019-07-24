@@ -335,6 +335,7 @@ header
         {
 
           display: inline-flex;
+          position: relative;
           padding-left: 10%;
           padding-bottom: 15%;
           padding-right: 10%;
