@@ -322,7 +322,7 @@ header
         {
           font-weight: 900;
           font-size: 1.3em;
-          display: inline-block;
+          display: flex;
           text-transform: uppercase;
           color: #9b6092;
           width: 100%;
