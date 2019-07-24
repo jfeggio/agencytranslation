@@ -1,7 +1,7 @@
 /* CSS Document */
 *
 {
-  box-sizing: border-box;
+  box-csizing: border-box;
   padding: 0px;
   margin: 0;
 }
@@ -433,7 +433,7 @@ h2
   float: center;
 
   position: relative;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   width: 100%;
   align-items: left;
@@ -516,7 +516,7 @@ color: rgb(127,250,216, 0.4);
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 10%;
-  display: flex;
+  display: inline-block;
   background-image: linear-gradient(#7ffad8, #c9cffd);
 }
 
