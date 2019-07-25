@@ -7,7 +7,23 @@
   margin: 0;
 }
 
-html { font-size: 1.25rem; }
+html {
+  font-size: 1.25rem; 
+}
+
+a:hover
+
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+a
+
+{
+  text-decoration: none;
+  color:inherit;
+}
 
 body
 {
