@@ -326,6 +326,7 @@ header
           text-transform: uppercase;
           color: #9b6092;
           width: 100%;
+          height100%;
 
 
         }
@@ -335,6 +336,7 @@ header
         {
 
           display: inline-flex;
+          height: 100%;
           position: relative;
           padding-left: 10%;
           padding-bottom: 15%;
