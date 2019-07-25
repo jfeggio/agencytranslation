@@ -321,12 +321,11 @@ header
 
         {
           font-weight: 900;
-          font-size: 1.3em;
+          font-size: 1.1em;
           display: block;
           text-transform: uppercase;
           color: #9b6092;
-          width: 100%;
-          height100%;
+          margin-bottom: -25%;
 
 
         }
