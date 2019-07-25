@@ -335,7 +335,7 @@ header
         .simulazione-prezzo
         {
 
-          display: inline-flex;
+          display: inline-block;
           height: 100%;
           position: relative;
           padding-left: 10%;
